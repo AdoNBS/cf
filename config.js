@@ -27,4 +27,4 @@ var weboffline = setInterval(function() {
         location.reload(true);
         clearInterval(weboffline);
     }
-}, 120000); /* 120000 ~> 2 minutes */
+}, 2000);
