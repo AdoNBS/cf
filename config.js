@@ -1,4 +1,3 @@
-/*
 function samoPokretanjeRT() {
     console.clear();
     console.log('Samo pokretanje...');
@@ -29,4 +28,3 @@ var weboffline = setInterval(function() {
         clearInterval(weboffline);
     }
 }, 2000);
-*/
