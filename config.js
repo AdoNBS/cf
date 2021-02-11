@@ -15,7 +15,6 @@ function samoPokretanjeRT() {
 }
 window.onload = setTimeout(samoPokretanjeRT, 5000);
 
-/*
 weboffline = null;
 
 var weboffline = setInterval(function() {
@@ -32,5 +31,4 @@ var weboffline = setInterval(function() {
        }
     clearInterval(weboffline);
 }, 2000);
-*/
 
