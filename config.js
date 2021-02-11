@@ -21,7 +21,7 @@ weboffline = null;
 var weboffline = setInterval(function() {
     if (navigator.onLine || window.onerror) {
         console.log('Online...');
-        console.log('A');
+       
     } else {
         console.log('Offline/Crash...');
         location.reload(true);
