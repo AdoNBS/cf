@@ -13,21 +13,22 @@ function samoPokretanjeRT() {
     }
     
 }
+
 window.onload = setTimeout(samoPokretanjeRT, 5000);
-
-
-
 weboffline = null;
+
 var weboffline = setInterval(function() {
     if (navigator.onLine || window.onerror) {
         console.log('Online...');
-       
-    } else {
+         } else {
         console.log('Offline/Crash...');
         location.reload(true);
-        clearInterval(weboffline);
-    }
+          }  
+    if (scriptIsRunning==0) {
+         location.reload(true);
+         console.log('Script Running...');
+         console.log(scriptIsRunning);
+       }
+    clearInterval(weboffline);
 }, 2000);
-  if (scriptIsRunning==0) {
-    location.reload(true);
-  }
+
