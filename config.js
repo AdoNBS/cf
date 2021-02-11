@@ -11,7 +11,7 @@
 })();
 
 function samoPokretanjeRT() {
-    console.clear();
+    //console.clear();
     console.log('Samo pokretanje...');
     fbeContainer_div = document.getElementById("fbe-container");
     
