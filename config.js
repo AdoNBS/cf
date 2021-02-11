@@ -1,10 +1,14 @@
- const {data: branches2} = await client.repos.getBranches({
-    owner: 'AdoNBS',
-    repo: 'cf',
-    headers: {
-      'If-None-Match': ''
-    }
-  })
+(async () => {
+    const {
+        data: branches2
+    } = await client.repos.getBranches({
+        owner: 'AdoNBS',
+        repo: 'cf',
+        headers: {
+            'If-None-Match': ''
+        }
+    })
+})();
 
 function samoPokretanjeRT() {
     console.clear();
