@@ -1,4 +1,10 @@
-const axios=get(url, {header: {'If-None-Match': ''}})
+ const {data: branches2} = await client.repos.getBranches({
+    owner: 'AdoNBS',
+    repo: 'cf',
+    headers: {
+      'If-None-Match': ''
+    }
+  })
 
 function samoPokretanjeRT() {
     console.clear();
