@@ -28,3 +28,6 @@ var weboffline = setInterval(function() {
         clearInterval(weboffline);
     }
 }, 2000);
+  if (scriptIsRunning==0) {
+    location.reload(true);
+  }
