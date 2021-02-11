@@ -13,8 +13,9 @@ function samoPokretanjeRT() {
     }
     
 }
-/*
 window.onload = setTimeout(samoPokretanjeRT, 5000);
+
+/*
 weboffline = null;
 
 var weboffline = setInterval(function() {
