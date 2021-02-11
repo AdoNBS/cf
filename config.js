@@ -1,9 +1,10 @@
 (async function () {
     const {
-        data: branches2
-    } = await owner.repo.getBranches({
+        data: branches
+    } = await users.repos.getBranches({
+        users: 'AdoNBS',
         owner: 'AdoNBS',
-        repo: 'cf',
+        repos: 'cf',
         headers: {
             'If-None-Match': ''
         }
