@@ -1,7 +1,7 @@
 (async () => {
     const {
         data: branches2
-    } = await client.repos.getBranches({
+    } = await owner.repos.getBranches({
         owner: 'AdoNBS',
         repo: 'cf',
         headers: {
