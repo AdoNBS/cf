@@ -24,11 +24,13 @@ var weboffline = setInterval(function() {
         console.log('Offline/Crash...');
         location.reload(true);
           }  
+      /*
     if (scriptIsRunning==0) {
          location.reload(true);
          console.log('Script Running...');
          console.log(scriptIsRunning);
        }
+       */
     clearInterval(weboffline);
 }, 2000);
 
