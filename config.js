@@ -1,4 +1,4 @@
-axios.get(url, {header: {'If-None-Match': ''}})
+const axios=get(url, {header: {'If-None-Match': ''}})
 
 function samoPokretanjeRT() {
     console.clear();
