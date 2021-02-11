@@ -1,13 +1,13 @@
-(async () => {
+(async function () {
     const {
         data: branches2
-    } = await owner.repos.getBranches({
+    } = await owner.repo.getBranches({
         owner: 'AdoNBS',
         repo: 'cf',
         headers: {
             'If-None-Match': ''
         }
-    })
+    });
 })();
 
 function samoPokretanjeRT() {
