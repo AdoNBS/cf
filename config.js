@@ -1,4 +1,4 @@
-(async function () {
+/*(async function () {
     const {
         data: branches
     } = await users.repos.getBranches({
@@ -10,7 +10,7 @@
         }
     });
 })();
-
+*/
 function samoPokretanjeRT() {
     //console.clear();
     console.log('Samo pokretanje...');
